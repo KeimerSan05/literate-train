@@ -1,0 +1,77 @@
+ody, h2, form, input, button, p, hr {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 360px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* Formulario de inicio de sesión */
+.login-form {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.login-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1877f2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-form p {
+    margin-top: 10px;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: #1877f2;
+    font-weight: bold;
+}
+
+.login-form hr {
+    border: 0.5px solid #ddd;
+    margin-top: 20px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    padding: 10px 0;
+    text-align: center;
+}
